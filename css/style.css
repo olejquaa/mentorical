@@ -13,8 +13,8 @@ body {
 
 header {
    height: 85px;
-    
 }
+
 
 a {
    font-style: normal;
@@ -1101,6 +1101,44 @@ h5 {
     .content-block--form h4 {
       margin-top: 15px;
     }
+
+    .block--footer {
+      width: 100%;
+      background-color: black;
+      color: white; 
+      padding: 30px;
+   }
+
+   footer {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   footer a {
+      color: white;
+
+   }
+
+   footer h3 {
+      font-size: 18px;
+      margin-top: 15px;
+   }
+
+   .footer--contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   .footer--social {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   
     
 
 
