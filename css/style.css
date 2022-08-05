@@ -1117,7 +1117,7 @@ h5 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      padding: 20px;
+      padding: 30px;
    }
 
    footer a {
@@ -1172,7 +1172,7 @@ h5 {
 
 
 
-@media only screen and (min-width : 1024px) and (max-width: 1443px){
+@media only screen and (min-width : 1024px) and (max-width: 1439px){
    .block1 {
       width: 100%;
       display: flex;
