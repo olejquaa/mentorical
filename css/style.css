@@ -1,117 +1,1213 @@
+
+@font-face {
+   font-family: 'GT Walsheim Pro';
+   src: url(/css/fonts/stylesheet.css);
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    font-family: 'Questrial', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'GT Walsheim Pro', sans-serif;
 }
 
 header {
-    margin-top: 12px; 
+   height: 85px;
+    
 }
 
-@media screen and (min-device-width: 1024px) 
-{
- .cont--first-block {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    
- }
-    
- .header--menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
- }
+a {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+   margin: 15px 20px;
+   color: black;
+   text-decoration: none;
+}
 
- .header--logo {
-    display: flex;
-    width: 211px;
-    height: 55px;
-    background-image: url(./img/logo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
- }
+h1 {
+   font-family: 'GT Walsheim Pro', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 92.5%;
+   text-transform: uppercase;
+   margin: 0;
+}
 
- .header--navigation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+h2 {
+   font-family: 'GT Walsheim Pro', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 92.5%;
+   margin: 0;
+}
 
- }
+h3 {
+   font-family: 'GT Walsheim Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 38px;
+   line-height: 92.5%;
+   text-align: center;
+   margin: 0;
+}
+
+h4 {
+   font-family: 'GT Walsheim Pro', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 120%;
+   margin: 0;
+   
+}
+
+h5 {
+   font-family: 'GT Walsheim Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 120%;
+   margin: 0;
+}
+
+
+
+@media only screen and (min-width : 1440px){
+   .block1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'GT Walsheim Pro';
+   }
+
+   .block2 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 160px;
+      border-top: 1px solid black;
+   }
+
+   .block3 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 160px;
+      border-top: 1px solid black;
+   }   
+
+   .block4 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid black;
+      margin-bottom: 100px;
+   } 
+
+   .block5 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid black;
+   } 
+
+   .block6 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+   } 
+
+   .block7 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
+   } 
+
+   .block8 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+      margin-bottom: 300px;
+      border-top: 1px solid black;
+   } 
+
+   .block9 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 100px;
+   } 
+      
+   .content-wrapper {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 95%;
+  }
+
+  .nav-block {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 49px;
+   margin-top: 16px;
+   margin-bottom: 20px;
+   font-family: 'GT Walsheim Pro';
+  }
+  
+  .nav-line {
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 12px;
+  }
+
+  .logo {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 25px;
+  }
+
+  .navigation {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+  }
+
+  .navigation a:hover {
+   color: #C091BE;
+  }
+
+  .header-buttons {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   
+  }
+
+  .header-btn {
+   background: none;
+   border: none;
+   padding: 15px 20px;
+   font-family: 'GT Walsheim Pro';
+  }
+
+  .header-btn:hover {
+   color: #C091BE;
+  }
+
+  .header-btn--submit {
+   background-color: #F9DD64;
+   border: 1px solid black;
+   padding: 15px 20px; 
+   z-index: 2;
+   font-family: 'GT Walsheim Pro';
+  }
+
+  .header-btn--submit:hover {
+   background-color: #C091BE;
+  }
+
+  .btn-shadow {
+   position: absolute;
+   width: 83px;
+   height: 46.5px;
+   border: 1px solid black;
+   z-index: 0;
+   top: 3px;
+   right: 3px;
+  }
+
+
+  .content-block {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  }
+
+  .content-block2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+  }
+
+  .content-block--item-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 130px;
+   width: 100%;
+  }
+
+  .content-block2--item-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin-top: 60px;
+   width: 100%;
+  }
+
+  .content-block4--item-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 70px;
+   width: 100%;
+  }
+
+  .content-block5--item-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 70px;
+   width: 100%;
+  }
+
+  .content-block--item-column {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+
+  .content-block2--item-column {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   justify-content: center;
+   margin-right: 30px;
+  }
+
+  .content-block3--item-column {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   justify-content: center;
+   margin-right: 30px;
+  }  
+
+  .content-block4--item-column {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   justify-content: center;
+  } 
+
+  .content-block4--item {
+   display: flex;
+   width: 30%;
+   align-items: center;
+  }
+
+  .content-block4--text {
+   font-family: 'GT Walsheim Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 44px;
+   line-height: 92.5%;
+   text-shadow: 2px 2px white;
+  }
+
+  .block-name {
+   display: flex;
+   justify-content: end;
+   writing-mode: vertical-lr; 
+   transform: rotate(180deg);
+   font-family: 'GT Walsheim Pro';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 92.5%;
+   width: 20px;
+   margin-right: 27px;
+  }
+
+  .block1--header-text {
+   display: flex;
+   margin-bottom: 30px;
+  }
+
+  .block1--header-pic {
+   display:flex;
+   align-items: flex-start;
+   width: 100%;
+   height: 100%;
+
+  }
+
+  .block1--buttons {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   
+  }
+
+  .block1-btn--try {
+   background-color: white;
+   padding: 15px 20px;
+   border: 1px solid black;
+   margin-right: 14px;
+   z-index: 2;
+}
+
+   .block1-btn--try:hover {
+   background-color: #C091BE; 
+}
+
+
+  .block1-btn--submit {
+   background-color: #F9DD64;
+   padding: 15px 20px;
+   border: 1px solid black;
+   margin-right: 14px;
+   z-index: 2;
+  }
+
+  .block1-btn--submit:hover {
+   background-color: #C091BE;
+  }
+
+  .btn-shadow--try {
+   position: absolute;
+   width: 106px;
+   height: 46px;
+   top: 4px;
+   left: 4px;
+   border: 1px solid black;
+   z-index: 0;
+  }
+
+
+  .btn-shadow--submit {
+   position: absolute;
+   width: 40%;
+   height: 46px;
+   top: 4px;
+   left: 124px;
+   border: 1px solid black;
+   z-index: 0;
+
+  }
+}
+
+   .ladder-1 {
+      background-color: black;
+      position: relative;
+      color: white;
+      padding: 10px;
+      width: 50%;
+      z-index: 10;
+   }
+
+   .ladder-1::before {
+      border: 1px solid black;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 4px;
+      left: 4px;
+      z-index: 9;
+   }
+
+   .ladder-2 {
+      background-color: #DEDFE1;
+      position: relative;
+      color: white;
+      padding: 10px;
+      width: 55%;
+      z-index: 9;
+   }
+
+   .ladder-2::before {
+      border: 1px solid #DEDFE1;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 4px;
+      left: 4px;
+      z-index: 8;
+   }
+
+   .ladder-3 {
+      background-color: black;
+      position: relative;
+      color: white;
+      padding: 10px;
+      width: 60%;
+      z-index: 8;
+   }
+
+   .ladder-3::before {
+      border: 1px solid black;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 4px;
+      left: 4px;
+      z-index: 7;
+   }
+
+   .ladder-4 {
+      background-color: #F9DD64;
+      position: relative;
+      color: white;
+      padding: 10px;
+      width: 65%;
+      z-index: 7;
+   }
+
+   .ladder-4::before {
+      border: 1px solid #F9DD64;
+      color: black;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 4px;
+      left: 4px;
+      z-index: 6;
+   }
+
+   .ladder-5 {
+      background-color: black;
+      position: relative;
+      color: white;
+      padding: 10px;
+      width: 70%;
+      z-index: 6;
+   }
+
+   .ladder-5::before {
+      border: 1px solid black;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 4px;
+      left: 4px;
+      z-index: 5;
+   }
+
+
+   .content-block--cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 140px;
+   }
+
+   .content-block--item-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 33%;
+      margin-bottom: 70px;
+
+   }
+   
+   .card-h2 {
+      margin-top: 18px;
+      margin-bottom: 10px;
+   
+   }
+
+   .card-h5 {
+      font-family: 'GT Walsheim Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 120%;
+   }
+
+   .content-block4--text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-shadow: black 0 0 1px;
+   }
+
+   .content-block4--text-shadow {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 23px;
+      left: -3px;
+      color: black;
+      z-index: 2;
+   }
+
+   .block--scroll {
+      overflow-x: scroll; /* Добавляем полосу прокрутки */
+      width: 100%; /* Ширина блока */
+       /* Параметры рамки */
+      white-space: nowrap; /* Запрещаем перенос строк */
+      display: flex;
+      flex-direction: row;
+      
+      margin-bottom: 160px;
+    
+   }
+
+   .block--scroll::-webkit-scrollbar {
+      width: 0;
+    }
+   
+   .content-block5--mentor-card {
+      display: flex;
+      flex-direction: column;
+      overflow-x: unset;
+      margin-right: 32px;
+      white-space: normal;
+      width: 301px;
+   }
+
+
+   .card--photo-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      margin-bottom: 50px;
+      z-index: 1;
+      margin-bottom: 340px;
+   }
+   
+   .mentor--photo {
+      display: flex;
+   }
+
+   .sq1 {
+      position: absolute;
+      height: 300px;
+      width: 300px; 
+      content: "";
+      border: 1px solid black;
+      background-color: white;
+      z-index: 3;
+   }
+
+   .sq2 {
+      position: absolute;
+      height: 300px;
+      width: 300px;
+      top: 4px;
+      left: 4px;
+      content: "";
+      border: 1px solid black;
+      z-index: 2;
+      background-color: white;
+   }
+
+   .sq3 {
+      position: absolute;
+      height: 300px;
+      width: 300px;
+      top: 8px;
+      left: 8px;
+      content: "";
+      border: 1px solid black;
+      z-index: 1;
+      background-color: white;
+   }
+
+   .card--mentor-h4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 320px;
+      margin-bottom: 14px;
+   }
+
+   .star::after {
+      content: url(./img/Star5.svg);
+   }
+
+
+   .content-block6--item-row {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+   }
+
+
+   .reviews-btn-l {
+      margin-left: 10px;
+      height: 30px;
+      width: 30px;
+      content: url(./img/reviews-btn-l.svg);
+   }
+
+   .reviews-btn-l:hover {
+      margin-left: 10px;
+      height: 30px;
+      width: 30px;
+      content: url(./img/reviews-btn-r.svg);
+      transform: rotate(180deg);
+   }
+
+   .reviews-btn-r {
+      margin-left: 10px;
+      height: 30px;
+      width: 30px;
+      content: url(./img/reviews-btn-l.svg);
+      transform: rotate(180deg);
+   }
+
+   .reviews-btn-r:hover {
+      margin-left: 10px;
+      height: 30px;
+      width: 30px;
+      content: url(./img/reviews-btn-r.svg);
+      transform: rotate(0deg);
+   }
+
+
+   .card--review-container {
+      display: flex;
+      flex-direction: row;
+      width: 630px;
+      height: 270px;
+      margin-right: 30px;
+      z-index: 2;
+      position: relative;
+   }
+
+   .card-review--inner {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      width: 630px;
+      height: 253px;
+      z-index: 2;
+      border: 1px solid black;
+      background-color: white;
+   }
+
+   .card-review--shadow {
+      position: absolute;
+      z-index:1;
+      width: 630px;
+      height: 253px;
+      border: 1px solid black;
+      top: 4px;
+      left: 4px;
+
+   }
+
+   .review-date {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-evenly;
+      color: white;
+      background-color: black;
+      align-items: center;
+      padding: 16px;
+   }
+
+   .review-person {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      white-space: normal;
+      padding: 27px;
+      background-color: white;
+   }
+
+   .review-person--name h3 {
+      text-align: left;
+      text-decoration: underline dashed 2px black;
+      margin-bottom: 20px;
+   }
+
+
+   .content-block7--item-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .content-block7--card-video {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      width: 282px;
+      height: 346px;
+   }
+   
+   .video-img {
+      position: relative;
+      z-index: 2;
+   }
+
+   .card-video--shadow {
+      position: absolute;
+      border: 1px solid black;
+      z-index: 1;
+      height: 272px;
+      width: 282px;
+      top: 6px;
+      left: 4px;
+   }
+
+
+   .block8--nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-decoration: underline;
+      align-items: center;
+      height: 215px;
+      position: relative;
+   }
+
+   .tab input[type="radio"] { display: none; }
+
+   .tab {
+      height: 250px;
+      width: 250px;  
+   }
+
+   .tab-title {
+      display: flex;
+      height: 300px;
+      width: 300px;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: -130px;
+      opacity: 50%;
+      
+   }
+
+   .tab-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: absolute; /* Абсолютное позиционирование */
+      padding: 10px; /* Поля вокруг текста */
+      left: 0; /* Размещаем у левого края */
+      width: calc(100% - 20px); /* Ширина содержимого */
+      display: none; /* Прячем вкладку */
+      top: 15px;
+     }
+  
+   .tab :checked ~ .tab-content {
+      display: flex; /* Показываем активную вкладку */
+      flex-direction: row;
+      justify-content: space-between;
+      z-index: 3;
+     }
+
+   .tab :checked + .tab-title {
+      position: relative; /* Относительное позиционирование */
+      height: 300px;
+      width: 300px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(./img/elips.svg); /* Цвет фона */
+      background-position: center;
+      top: -130px;
+      z-index: 1; /* Отображаем поверх содержимого */
+      opacity: 100%;
+     }
+
+     .content-block8--card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      position: relative;
+     }
+
+     .content-block8--card-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 286px;
+      height: 411px;
+      border: 1px solid black;
+      position: relative;
+      background-color: white;
+      z-index: 2;
+     }
+     
+     .content-block8--card-shadow {
+      width: 286px;
+      height: 411px;
+      border: 1px solid black;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      z-index: 1;
+     }
+
+     .content-block8--card-inner span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px;
+      margin-top: 26px;
+      
+     }
+
+     .card-inner--text {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-start;
+      padding: 10px;
+      font-size: 24px;
+     }
+
+
+     .card-inner--text div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+     }
+
+     .card-inner--text div::before {
+      content: url(./img/dot.svg);
+      margin-right: 12px;
+      height: 100%;
+     }
+
+     .content-block8--card-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      position: relative;
+      margin-bottom: 14px;
+     }
+
+     .card-btn {
+      width: 257px;
+      height: 49px;
+      border: 1px solid black;
+      background-color: #F9DD64;
+      z-index: 2;
+     }
+
+     .card-btn:hover {
+      background-color: #C091BE;
+     }
+
+     .card-btn--shadow {
+      width: 257px;
+      height: 49px;
+      border: 1px solid black;
+      position: absolute;
+      top: 2px;
+      right: 16px;
+      z-index: 1;
+      white-space: pre;
+
+     }
+
+     .content-block9--item-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+     }
+
+     .content-block9--pic {
+      display: flex;
+      justify-content: flex-start;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================== */
+
+
+
+
+
+@media only screen and (min-width : 1024px) and (max-width: 1443px){
+   .block1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+      }
+      
+     .content-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+   }
+
+  .nav-block {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 49px;
+   margin-top: 16px;
+   margin-bottom: 20px;
+  }
+
+  .nav-line {
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 12px;
+  }
+
+  .logo {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 25px;
+  }
+
+  .navigation {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+  }
+
+  .header-buttons {
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   
+  }
+
+  .header-btn {
+   background: none;
+   border: none;
+   padding: 15px 20px;
+  }
+
+  .header-btn-submit {
+   background-color: white;
+   border: 1px solid black;
+   padding: 15px 20px; 
+   z-index: 2;
+  }
+  .header-btn-submit:hover {
+   background-color: #F9DD64;
+  }
+
+  .btn-shadow {
+   position: absolute;
+   width: 83px;
+   height: 46.5px;
+   border: 1px solid black;
+   z-index: 0;
+   top: 4px;
+   right: 3px;
+  }
+
+  .content-block {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  }
+
  
- a {
-    padding: 15px 20px;
-    margin: 3.5px;
- }
+  .content-block--item {
+   display: flex;
+   flex-direction: column;
+  }
 
- .header--bottom-line {
-    display: block;
-    width: 100%;
-    height: 12px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+  .block-name {
+   display: flex;
+   justify-content: end;
+   writing-mode: vertical-lr; 
+   transform: rotate(180deg);
+   font-family: 'GT Walsheim Pro';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 92.5%;
+   width: 20px;
+  }
 
- }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+   .block1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+      }
+      
+   .content-wrapper {
+     display: flex;
+     flex-direction: column;
+     background-color: pink;
+     width: 768px;
+  }
+
+  .nav-block {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   height: 49px;
+   margin-top: 16px;
+   margin-bottom: 20px;
+  }
+  .nav-line {
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 12px;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) and (orientation : portrait){
+   .block1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+      }
+      
+   .content-wrapper {
+     display: flex;
+     flex-direction: column;
+     background-color: pink;
+     width: 320px;
+  }
+  .nav-block {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   height: 49px;
+   margin-top: 16px;
+   margin-bottom: 20px;
+  }
+  .nav-line {
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 12px;
+  }
+}
+
+@media only screen and (max-width : 321px) and (orientation : landscape) {
+   .block1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+      }
+      
+   .content-wrapper {
+     display: flex;
+     flex-direction: column;
+     background-color: pink;
+     width: 321px;
+  }
+  .nav-block {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   border: 1px solid black;
+  }
+  .nav-line {
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 12px;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .block1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid black;
+      }
+   
+   .content-wrapper {
+     display: flex;
+     flex-direction: column;
+     background-color: pink;
+     width: 320px;
+  }
 
 
-
- button {
-    font-family: 'Questrial', sans-serif;
- }
-
-
- .first-block {
-    display: flex;
-    width: 100%;
- }
-
- 
- .fb-content{
-    display: flex;
-    flex-direction: row;
-    margin-top: 155px;
- }
-
- .fb-content--block {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
- }
-
- 
- .fb-content--head {
-    display: flex;
-    /* background-image: url(./img/fb-header.svg);
-    background-repeat: no-repeat;
-    background-position: center;*/
-
- }
-
- .img--fb-head {
-    transform: scale(100%);
- }
-
- .fb-content--text {
-    font-family: 'Questrial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 120%;
-    margin-top: 32px;
-    margin-bottom: 20px;
- }
-
- .fb-content--img {
-    display: flex;
-    transform: scale(100%);
-    
- }
-
- .img--fb-content {
-    display: flex;
-    width: 100%;
- }
+   .nav-block {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border: 1px solid black;
+   }
+   
+   .nav-line {
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      height: 12px;
+     }
 }
